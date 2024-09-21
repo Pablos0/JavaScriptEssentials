@@ -49,3 +49,21 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+
+// identify which is the error 
+
+let personRole = "employee";
+let = accessLevel; 
+
+if (personRole === "employee") {
+    accessLevel = "Full access to Dietary Services";
+} else if (personRole === "enrolled member") {
+    accessLevel = "One to One interaction in Dietary Services"
+} else if (personRole === "Subscriber") {
+    accessLevel = "partial access to Dietary Service";
+} else {
+    accessLevel = "no access allowed.";
+}
+
+console.log("Control level:", personRole);
