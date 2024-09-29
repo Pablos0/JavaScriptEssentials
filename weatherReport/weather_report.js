@@ -22,3 +22,8 @@ function showweatherDetails(event) {
 }
 
 document.getElementById('weatherForm').addEventListener('submit', showweatherDetails);
+
+
+// Do not forgot use another Key. 
+// https://home.openweathermap.org/api_keys
+// 5642CDA@
